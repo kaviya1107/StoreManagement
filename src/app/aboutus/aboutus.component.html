@@ -1,0 +1,134 @@
+<div class="topnav">
+    <a routerLink="/home">Home</a>
+    <a routerLink="/categories">Categories</a>
+    <a routerLink="/retail">Products</a>
+    <a class="active" href="#aboutus">Aboutus</a>
+    <a routerLink="/login">Login</a>
+</div>
+
+<div class="about-container">
+    <h1>About Us</h1>
+    <p>
+        Welcome to <strong>The Art of Stationery</strong>, where passion meets creativity! Founded with a mission to bring elegance, functionality, and inspiration to everyday tasks, we are more than just a stationery store—we’re your partner in organization and self-expression.
+    </p>
+    <p>
+        At <strong>The Art of Stationery</strong>, we believe that the tools you use should reflect your personality and enhance your workflow. From beautifully crafted notebooks and pens to innovative desk accessories and art supplies, our collections are thoughtfully curated to meet the needs of students, professionals, and creatives alike.
+    </p>
+    <p>
+        We pride ourselves on offering high-quality products that combine practicality with style. Each item in our store is carefully selected to ensure it meets our commitment to excellence. Whether you’re jotting down ideas, sketching your next masterpiece, or organizing your day, our products are designed to inspire.
+    </p>
+    <h2>Our Vision</h2>
+    <p>
+        To become a leading name in the stationery industry by promoting creativity, organization, and the joy of putting pen to paper in an increasingly digital world.
+    </p>
+    <h2>Our Mission</h2>
+    <p>
+        To provide innovative, sustainable, and high-quality stationery products that empower individuals to express themselves and achieve their goals.
+    </p>
+    <h2>Why Choose Us?</h2>
+    <ul>
+        <li>Curated collections that combine design and functionality</li>
+        <li>Commitment to quality and customer satisfaction</li>
+        <li>Products for students, professionals, and creatives alike</li>
+        <li>Passion for inspiring creativity and organization</li>
+    </ul>
+    <p>
+        Thank you for choosing <strong>The Art of Stationery</strong>. We’re thrilled to be part of your journey, whether it’s to enhance your productivity, organize your life, or spark your next big idea. Explore our store and discover the art of stationery today!
+    </p>
+</div>
+
+<style>
+    .about-container {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 30px;
+        line-height: 1.8;
+        font-family: 'Poppins', sans-serif;
+        background: #f9f9f9;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .about-container:hover {
+        transform: translateY(-5px);
+    }
+    
+    .about-container h1 {
+        text-align: center;
+        color: #2c3e50;
+        font-size: 2.8rem;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    
+    .about-container h1::after {
+        content: '';
+        width: 80px;
+        height: 4px;
+        background-color: #007BFF;
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 2px;
+    }
+    
+    .about-container h2 {
+        color: #007BFF;
+        margin-top: 30px;
+        font-size: 1.8rem;
+    }
+    
+    .about-container p {
+        margin: 15px 0;
+        color: #555;
+        font-size: 1.1rem;
+    }
+    
+    .about-container ul {
+        margin: 20px 0;
+        padding-left: 25px;
+    }
+    
+    .about-container ul li {
+        margin: 10px 0;
+        list-style-type: none;
+        position: relative;
+        padding-left: 30px;
+        font-size: 1.05rem;
+    }
+    
+    .about-container ul li::before {
+        content: '✓';
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 1.2rem;
+        color: #28a745;
+        font-weight: bold;
+    }
+    
+    .about-container strong {
+        color: #007BFF;
+    }
+    
+    .about-container p:last-child {
+        text-align: center;
+        font-style: italic;
+        font-size: 1.2rem;
+        margin-top: 30px;
+    }
+        .about-container h1 {
+            font-size: 2.2rem;
+        }
+    
+        .about-container h2 {
+            font-size: 1.5rem;
+        }
+    
+        .about-container p, .about-container ul li {
+            font-size: 1rem;
+        }
+    </style>
+    

@@ -1,0 +1,64 @@
+<div class="topnav">
+    <a routerLink="/home">Home</a>
+    <a class="active" href="#categories">Categories</a>
+    <a routerLink="/retail">Products</a>
+    <a routerLink="/aboutus">Aboutus</a>
+    <a routerLink="/login">Login</a>
+</div>
+<h1 style="text-align: center;">  Shop by Category</h1>
+<div class="card-container">
+    <div class="card">
+        <h2>Kids Stationery</h2>
+        <img src="/assets/kids.jpg" alt="Stationery" class="card-img">
+        <p>Kids Stationary</p>
+        <a href="/stationery" class="btn">Shop Now</a>
+    </div>
+
+    <div class="card">
+        <h2>Hobby items</h2>
+        <img src="/assets/hobby.jpg" alt="Watches" class="card-img">
+        <p>Hobby items</p>
+        <a href="/watches" class="btn">Shop Now</a>
+    </div>
+
+    <div class="card">
+        <h2>Budget Store</h2>
+        <img src="/assets/budget.jpg" alt="Art Supplies" class="card-img">
+        <p>Budget Store</p>
+        <a href="/artsupplies" class="btn">Shop Now</a>
+    </div>
+</div>
+
+<style>
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10px;
+}
+
+.card {
+    width: 30%;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.btn {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+</style>
